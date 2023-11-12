@@ -1,7 +1,7 @@
 {
-  "name": "contacts-backendapi-app",
+  "name": "jwt-app",
   "version": "1.0.0",
-  "description": "This is an express project for my contacts backend api",
+  "description": "implementation of jwt authentication using accessToken and refreshToken",
   "main": "server.js",
   "scripts": {
     "dev": "nodemon server.js",
@@ -12,9 +12,10 @@
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "express-async-handler": "^1.2.0",
+    "express-validator": "^7.0.1",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^7.6.2"
   },
